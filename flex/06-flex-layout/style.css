@@ -11,11 +11,21 @@ img {
   width: 600px;
 }
 
+ul {
+  list-style: none;
+}
+
+a:link, a:visited,  a:hover, a:active {
+  color: #696969;
+  text-decoration: none;
+}
+
 button {
   font-family: Roboto, sans-serif;
   border: none;
   border-radius: 8px;
   background: #eee;
+  align-items: center;
 }
 
 input {
@@ -24,4 +34,52 @@ input {
   padding: 8px 24px;
   width: 400px;
   margin-bottom: 16px;
+  margin-left: 70px;
+}
+
+.header {
+  display: inline-flex;  
+  gap: 990px;
+}
+
+.footer {
+  height: 45px;
+  width: 1300px;
+  display: inline-flex;
+  gap: 935px;
+  margin-top: 143px;
+  background-color: #ededed;
+}
+
+.left-links {
+  display: flex;
+  gap: 15px;
+  margin-left: -25px;
+}
+
+.right-links {
+  display: flex;
+  gap: 15px;
+}
+
+.content {
+  margin-top: 120px;
+  margin-left: 350px;
+  display: flex;
+  flex-direction: column;
+}
+
+.buttons {
+  display: flex;
+  margin-left: 178px;
+  gap: 5px;
+}
+
+.one {
+  height: 30px;
+  width: 100px;
+}
+
+.two {
+  width: 140px;
 }
